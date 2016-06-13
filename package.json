@@ -4,7 +4,7 @@
   "description": "Demonstrate or distil todays issue with mocha, gulp and deepcopy on Travis",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "./node_modules/.bin/mocha --require coffee-script/register --compilers coffee:coffee-script/register *.coffee --bail --timeout 30000"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/thehig/mocha-gulp-deepcopy/issues"
   },
-  "homepage": "https://github.com/thehig/mocha-gulp-deepcopy#readme"
+  "homepage": "https://github.com/thehig/mocha-gulp-deepcopy#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "deepcopy": "^0.6.3",
+    "mocha": "^2.5.3"
+  }
 }
