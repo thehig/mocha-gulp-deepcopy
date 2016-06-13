@@ -1,0 +1,19 @@
+{
+  "name": "mocha-gulp-deepcopy",
+  "version": "1.0.0",
+  "description": "Demonstrate or distil todays issue with mocha, gulp and deepcopy on Travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehig/mocha-gulp-deepcopy.git"
+  },
+  "author": "David Higgins thehig@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thehig/mocha-gulp-deepcopy/issues"
+  },
+  "homepage": "https://github.com/thehig/mocha-gulp-deepcopy#readme"
+}
